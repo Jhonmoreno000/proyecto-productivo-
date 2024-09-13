@@ -1,0 +1,325 @@
+.nequi-logo{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: contain; /*ajustar el logo al tamaño del contenedor*/
+    /*ajustar el logo al tamaño del contenedor*/
+    left: 0%;
+    transform: translateX(-00%); /*centrar el logo en la pantalla*/
+    transform: translateY(-50%); /*centrar el logo en la pantalla*/
+    z-index: 1; /*ajustar la posición del logo para que no se vea sobre los shapes*/
+    transition: opacity 0.5s ease-in-out; /*animación de opacidad para el hover*/
+    cursor: pointer; /*cambiar el cursor al pasar el mouse sobre el logo*/
+    
+    
+
+    }
+  .shape{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #211751;
+    opacity: 0.85;
+    border-radius: 20%; /* hacer los bordes redondeado*/
+  }
+  /*morado oscuro*/
+  .shape-1 {
+    background-color:"#FF4F47"; /*color morado oscuro*/
+
+    transform: rotate(15deg);
+    
+  }
+  /*rosado*/
+  .shape-2 {
+    background-color: #ff4fa7; /*color rosado*/
+    transform: rotate(-15deg);
+    z-index: 1;
+  }
+.shape-3 {
+    /*celeste*/
+    background-color: #00c4cc; /*color celeste*/
+    transform: rotate()
+}
+.shape-4 {
+    /*trasparencia del morado*/
+    background-color: #211751; /*color morado con menos opacidad*/
+    transform: rotate(0deg);
+    z-index: 4;
+    opacity: 0.5; /*ajuste opacidad para la trasparencia*/
+}
+
+
+
+.ipervinculo {
+    font-size: medium;
+    margin: 2px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-radius: 120px;
+    box-shadow: 0 4px 8px 0 rgba(122, 42, 42, 0.2), 0 6px 20px 0 rgba(196, 20, 181, 0.644);
+    
+
+
+}
+body {
+    background-color: rgba(199, 161, 182, 0.164);
+    margin-top: auto;
+    display: inline-flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+
+a{ 
+    color: #1b1a1a;
+    text-decoration: none;
+    transition: all 0.7s ease-in-out;
+    margin: 10%;
+    font-size: medium;
+    padding: px;
+    border-radius: 120px;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+a:hover{
+    color: #f309e0;
+    text-decoration: underline;
+    transition: all 0.7s ease-in-out;
+    
+
+}
+
+head{ 
+    background-color: #333;
+    color: rgb(77, 69, 69);
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #464444;
+    transition: all 0.7s ease-in-out;
+
+
+
+}
+
+.tabla_de_trabajadores{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+    font-size: medium;
+    background-color: #f5f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 22px 22px rgba(117, 0, 146, 0.377);
+    
+
+
+    
+    
+}
+
+.usuario {
+
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-radius: 120px;
+    box-shadow: 0 4px 8px 0 rgba(90, 0, 71, 0.397), 0 6px 20px 0 rgba(196, 20, 181, 0.644);
+    margin-bottom: 10px;
+}
+
+.informacion {
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(17, 14, 14, 0.2), 0 6px 20px 0 rgba(172, 19, 159, 0.644);
+
+}
+
+label {
+
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    button-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    
+
+
+    
+}
+
+input {
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.7s ease-in-out;
+    font-size: medium;
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Borde de entrada */
+    
+
+}
+
+
+button {
+    margin: 10px;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: #6e10a5; /* Color de fondo inicial */
+   color: white; /* Color del texto */
+   border: none; /* Sin borde */
+   padding: 15px 30px; /* Relleno interno */
+   text-align: center; /* Alineación del texto */
+   text-decoration: none; /* Sin subrayado */
+   display: inline-block; /* Botón en línea */
+   font-size: 16px; /* Tamaño del texto */
+   margin: 10px 5px; /* Margen alrededor del botón */
+   cursor: pointer; /* Cambia el cursor cuando el mouse está sobre el botón */
+   border-radius: 8px; /* Bordes redondeados */
+   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transición suave para el color, tamaño y sombra */
+}
+
+.ingresar-btn:hover {
+  background-color: #f30dcd; /* Color de fondo al pasar el mouse */
+  transform: translateY(-5px); /* Eleva el botón al pasar el mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+
+}
+
+.container {
+    display: flex;
+  align-items: center;
+  gap: 8px; /* Espacio entre etiqueta y checkbox */
+}
+
+/* Estilos básicos para la etiqueta */
+label {
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Animación de cambio de color en la etiqueta */
+input[type="checkbox"]:checked + label {
+  color: #9900ff; /* Color cuando el checkbox está seleccionado */
+}
+
+/* Estilos básicos para el checkbox */
+input[type="checkbox"] {
+  appearance: none; /* Quitar el estilo por defecto del checkbox */
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  border: 1px solid #b700ff;
+  border-radius: 3px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.7s ease, border-color 0.4s ease;
+}
+
+/* Estilo del checkbox cuando está seleccionado */
+input[type="checkbox"]:checked {
+  background-color: #9900ff;
+  border-color: #a200ff;
+}
+
+/* Animación de la marca de verificación */
+input[type="checkbox"]:checked::before {
+  content: '✓';
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease;
+}
+
+  .pie_de_pagina {
+    color: #1b1a1af6;
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+    background-color: #a20dcf71;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    transition: all 0.7s ease-in-out;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    cursor: pointer;
+    border-radius: 120px;
+    
+  }
+
+  .derechosR{
+    text-align: center;
+    color: #1b1a1ac7;
+    font-size: 12px;
+    
+  }
+
+/* configuracion der la tabla */
+th, td{
+    width: 25%;
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #1b1a1a;
+    border-style: outset;
+
+
+}
+
+.nomina {
+  width: 86%;
+  text-align: center;
+  background-color: #850a96;
+  color: #f5f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 22px 22px rgba(117, 0, 146, 0.377);
+  margin-bottom: 10px;
+  
+
+}
+.registro {
+  width: 70%;
+  text-align: center;
+  background-color: #6c0496;
+  color: #faf7f7;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+

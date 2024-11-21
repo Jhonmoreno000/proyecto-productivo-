@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #93dde2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-logo img {
+    width: 120px;
+}
+
+header .header-menu {
+    display: flex;
+    gap: 20px;
+}
+
+header .header-menu a {
+    font-size: 16px;
+    color: #0061F2;
+    text-decoration: none;
+}
+
+header .header-menu a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    flex: 1;
+    padding: 30px;
+}
+
+
+.balance {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.balance h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.balance .balance-amount {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0061F2;
+}
+
+.balance .balance-amount span {
+    font-size: 24px;
+    color: #333;
+}
+
+.balance p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.actions button {
+    padding: 15px;
+    background-color: #0061F2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #0056d1;
+}
+
+
+.transactions {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.transactions h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.transactions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transactions ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.transactions ul li span {
+    font-size: 16px;
+    color: #333;
+}
+
+.transactions .transaction-amount {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.transactions .transaction-amount.positive {
+    color: #000000;
+}
+
+
+.info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.info p {
+    font-size: 14px;
+    color: #666;
+}
+
+.info button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #0061F2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.info button:hover {
+    background-color: #0056d1;
+}
+
+
+footer {
+    background-color: #007acc;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    text-align: center;
+}
+
